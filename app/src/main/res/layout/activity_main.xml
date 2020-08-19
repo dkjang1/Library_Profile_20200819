@@ -10,15 +10,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/skyblue"
         android:gravity="center"
-        android:padding="15dp"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:padding="15dp">
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/iu" />
+            android:src="@drawable/iu"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="아이유"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
