@@ -30,11 +30,16 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.3.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+//    프로파일사진
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+//    사진보기(확대,축소)
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+//    웹사진불러오기
     implementation 'com.github.bumptech.glide:glide:4.11.0'
-    implementation 'gun0912.ted:tedpermission:2.2.3'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+//    권한설정
+    implementation 'gun0912.ted:tedpermission:2.2.3'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
